@@ -1,8 +1,8 @@
 Task Queue example, where every worker can handle task and
-round-robin algotithm is used for delivering. Created queue
-is dureable, so with rabbitmq die it will recover messages
+round-robin algorithm is used for delivering. Created queue
+is durable, so with rabbitmq death it will recover messages
 after.
 
-send.py helps to send message - first command-line argument.
+send.py helps to send message via first command-line argument.
 The task will be processed by worker within `n` seconds, where
 `n` is amount of dots in message.
